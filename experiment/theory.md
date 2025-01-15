@@ -12,7 +12,7 @@ Creating event and alarm diagrams for a process plant involves a systematic appr
 -	Utilities (e.g., power, water, steam)
 -	Instrumentation and control systems (e.g., sensors, actuators, controllers)
 -	Safety systems (e.g., fire suppression, emergency shutdown)
--	
+
 #### Step 2: Determine the Events and Alarms
 
 Identify all possible events that can occur in the plant, including:
@@ -25,7 +25,7 @@ Identify all possible events that can occur in the plant, including:
 -	Process alarms (e.g., high temperature, low pressure, flow rate deviations)
 -	Equipment alarms (e.g., motor failure, valve malfunction, sensor fault)
 -	Safety alarms (e.g., fire alarm, gas detection alarm, emergency shutdown)
--	
+	
 #### Step 3: Categorize Events and Alarms
 
 Categorize events and alarms based on their severity, impact, and priority, using a classification system such as:
