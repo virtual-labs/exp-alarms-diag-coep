@@ -2,38 +2,130 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the primary purpose of an alarm in a process plant?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To alert operators to a normal operating condition",
+        "b": "To provide a warning of an abnormal condition",
+        "c": "To initiate a shutdown sequence",
+        "d": "To monitor process trends"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is an example of a critical alarm in a process plant?",
+      "answers": {
+        "a": "Low fuel level in a tank",
+        "b": "High temperature in a reactor",
+        "c": "Minor deviation in flow rate",
+        "d": "Sensor fault in a non-critical process"
       },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the term for the process of prioritizing alarms based on their severity and impact?",
+      "answers": {
+        "a": "Alarm rationalization",
+        "b": "Alarm classification",
+        "c": "Alarm prioritization",
+        "d": "Alarm optimization"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "Which of the following is a benefit of implementing an alarm management system in a process plant?",
+      "answers": {
+        "a": "Reduced operator workload",
+        "b": "Increased plant productivity",
+        "c": "Improved safety and reliability",
+        "d": "Enhanced process efficiency"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "What is the term for the maximum allowable time for an operator to respond to an alarm?",
+      "answers": {
+        "a": "Response time",
+        "b": "Alarm timeout",
+        "c": "Operator delay",
+        "d": "Reaction time"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+	
+	 {
+      "question": "Which of the following is an example of an event in a process plant?",
+      "answers": {
+        "a": "Startup of a pump",
+        "b": "Shutdown of a reactor",
+        "c": "Change in process set-point",
+        "d": "All mentioned"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of an event sequence diagram in a process plant?",
+      "answers": {
+        "a": "To illustrate the relationships between alarms and events",
+        "b": "To show the sequence of events leading to a shutdown",
+        "c": "To identify the root cause of an event",
+        "d": "To optimize process operating conditions"
+      },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following is a best practice for alarm design in a process plant?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Use of vague alarm descriptions",
+        "b": "Use of identical alarm sounds for all alarms",
+        "c": "Use of clear and concise alarm messages",
+        "d": "Use of alarm flashing lights only"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "c",
       "difficulty": "beginner"
+    },
+	{
+      "question": "What is the term for the process of reviewing and refining alarm settings and priorities?",
+      "answers": {
+        "a": "Alarm optimization",
+        "b": "Alarm rationalization",
+        "c": "Alarm maintenance",
+        "d": "Alarm tuning"
+      },
+     
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "Which of the following is a benefit of implementing an event-driven alarm system in a process plant?",
+      "answers": {
+        "a": "Reduced number of alarms",
+        "b": "Improved operator response times",
+        "c": "Enhanced process safety and reliability",
+        "d": "All mentioned"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
     }
+  
+  
+  
   ]
 }
