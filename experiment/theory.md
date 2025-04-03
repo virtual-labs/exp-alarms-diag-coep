@@ -1,6 +1,8 @@
+## Theory
+
 In a process plant, the smooth operation of various systems and equipment is crucial to ensure efficient production, safety, and environmental sustainability. However, various events and alarms can disrupt the normal functioning of the plant, leading to tripping, shutdowns, or even accidents. To mitigate these risks, it is essential to understand the event and alarm diagrams that govern the plant's operation. By analyzing these diagrams, operators and plant personnel can identify potential hazards, prioritize responses, and take corrective actions to prevent or minimize the impact of adverse events. In this context, understanding event and alarm diagrams is critical to ensuring the reliable and safe operation of a process plant.
 
-### Importance of Event and Alarm Diagrams
+#### Importance of Event and Alarm Diagrams
 
 Event and alarm diagrams are graphical representations of the various events that can occur in a process plant, along with the corresponding alarms that alert operators to take action. These diagrams provide a visual representation of the complex relationships between different systems, equipment, and processes, enabling operators to quickly identify the root cause of an event and respond accordingly. By studying event and alarm diagrams, plant personnel can identify potential tripping scenarios, prioritize alarm responses, and develop effective strategies to mitigate the impact of adverse events. Furthermore, these diagrams can be used to create escalation matrices that outline the sequence of events, alarm priorities, and corresponding actions to be taken by different roles in the plant. By developing a comprehensive understanding of event and alarm diagrams, plant personnel can ensure that the plant operates safely, efficiently, and reliably, while minimizing downtime and optimizing production.
 Creating event and alarm diagrams for a process plant involves a systematic approach to identify, analyze, and represent the various events and alarms that can occur in the plant. Here's a step-by-step guide to create event and alarm diagrams:
@@ -20,7 +22,7 @@ Identify all possible events that can occur in the plant, including:
 -	Abnormal operating conditions (e.g., equipment failure, process upset, power outage)
 -	Safety-related events (e.g., fire, explosion, toxic gas release)
 
-##### Determine the alarms that will be triggered by each event, including:
+#### Determine the alarms that will be triggered by each event, including:
 
 -	Process alarms (e.g., high temperature, low pressure, flow rate deviations)
 -	Equipment alarms (e.g., motor failure, valve malfunction, sensor fault)
