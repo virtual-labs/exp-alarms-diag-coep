@@ -1,8 +1,8 @@
-####  Aim
+##  Aim
 
 Interpret the event and alarm diagrams for the smooth running of the process plant under consideration
  
-####  Objectives
+##  Objectives
 
 -	To study various events which can lead to tripping of the plant
 -	To List sequence of alarms which will need attention of the operator
