@@ -1,4 +1,4 @@
-##Procedure
+## Procedure
 
 #### 1.	Click on the "Start" button
 
