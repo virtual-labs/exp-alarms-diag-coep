@@ -336,7 +336,7 @@ background-color: #343a40;
 }
 
 #simDemo,#nextLevel1,#verifyComponents,#verifyInstr,#nextLevel2,#verifyButton,#startBtn,#reset,#datasheet,#graph,#procedure,#btnResult,#tagDetail1,#tagDetails,#nextLevelFault,
-#refMimic,#nextAlam{
+#refMimic,#nextAlam,#result{
     border-color: teal;
     background-color: teal;
 
