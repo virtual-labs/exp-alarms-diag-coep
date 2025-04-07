@@ -1,7 +1,7 @@
 var startCount=0;
 var dataJson={};
 
-var selectedValue = 100;
+var selectedValue = 1000;
 var timerMasterJson={};
  var resultJson={};
 function BoilerHeatExchangerMimic(){
