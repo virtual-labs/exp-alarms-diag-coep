@@ -33,7 +33,7 @@ function BoilerHeatExchangerMimic(){
 		+'</div>'
 		+'<div class="row">'
 		+'<div class="col-sm-12">'
-		+'<button id="nextLevelFault" class="btn btn-danger" style="width:100%;margin-top:10px;" disabled>Next level Fault</button>'
+		+'<button id="nextLevelFault" class="btn btn-danger" style="width:100%;margin-top:10px;" disabled>Next level</button>'
 		+'</div>'
 //		+'<div class="col-sm-6">'
 //		+'<button type="button" class="btn btn-danger"  id="graph" style="margin-top:10px;width:100%" data-toggle="modal" data-target="#modalTrends"  disabled >Trends </button>'
