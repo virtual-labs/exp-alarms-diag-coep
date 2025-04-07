@@ -7,7 +7,7 @@ function faultActivity()
 	seconds = 0;
 	  updateCounter();
 	//$("#footerModal").empty();
-	$("#Header").html("	<center><span>FAULT</span></center>");
+	$("#Header").html("	<center><span>EVENT</span></center>");
 	 function shuffleArray(array) {
             return array.sort(() => Math.random() - 0.5);
         }
@@ -24,12 +24,12 @@ function faultActivity()
 //	+'and Maintenance requirements of the project. These are 11 activities and you will have to number them in a chronological sequence. </span>'
 
 	 +'<div class="row">'
-	// +'<center><h5>FAULT OF EVENTS</h5></center>'
+	 +'<center><h5>Mark in chronological sequence of events occured during the fault</h5></center>'
 	 +'<div class="col-sm-12 " id="">'
 	+'<table>'
 	+'<thead>'
 	+'<tr>'
-	+' <th>FAULT </th>'
+	+' <th>EVENT</th>'
 	+' <th>SEQUENCE NUMBER</th>'
 	+'</tr>'
 	+'</thead>'
@@ -78,7 +78,7 @@ function faultActivity()
 		+'<button id="refMimic" class="btn btn-danger" style="width:100%" data-toggle="modal" data-target="#refMimicModal" >Mimic</button>'
 		+'</div>'
 		+'<div class="col-sm-6">'
-		+'<button id="nextAlam" class="btn btn-danger" style="width:100%" disabled >Next level Alarms</button>'
+		+'<button id="nextAlam" class="btn btn-danger" style="width:100%" disabled >Next level</button>'
 		+'</div>'
 		+'</div>'
 		htm+=`<!-- 			    The Modal  ProStr -->
@@ -286,8 +286,8 @@ $(document).ready(function () {
 		 <table class="table table-striped">
 			    <thead>
 			      <tr>
-			        <th>step no</th>
-			        <th>Statement</th>
+			        <th>SEQUENCE NUMBER</th>
+			        <th>EVENTS</th>
 			        
 			      </tr>
 			    </thead>

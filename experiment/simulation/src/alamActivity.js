@@ -24,7 +24,7 @@ function alamActivity()
 //	+'and Maintenance requirements of the project. These are 11 activities and you will have to number them in a chronological sequence. </span>'
 
 	 +'<div class="row">'
-	// +'<center><h5>FAULT OF EVENTS</h5></center>'
+	 +'<center><h5>Mark the sequence of alarms annunociated as per the fault</h5></center>'
 	 +'<div class="col-sm-12 " id="">'
 	+'<table>'
 	+'<thead>'
@@ -285,8 +285,8 @@ $(document).ready(function () {
 		 <table class="table table-striped">
 			    <thead>
 			      <tr>
-			        <th>step no</th>
-			        <th>Statement</th>
+			        <th>SEQUENCE NUMBER</th>
+			        <th>ALARM</th>
 			        
 			      </tr>
 			    </thead>
