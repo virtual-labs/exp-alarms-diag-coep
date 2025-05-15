@@ -5,9 +5,9 @@
                     "statements": [
                         {"step_no": "1", "statement": "Inlet feed pump to boiler failed"},
                         {"step_no": "2", "statement": "Outlet temperature increased"},
-                        {"step_no": "3", "statement": "Outlet pressure increaded"},
+                        {"step_no": "3", "statement": "Outlet pressure increased"},
                         {"step_no": "4", "statement": "Steam temperature and pressure reduces"},
-                        {"step_no": "5", "statement": "Drum level reduces ti LSLL"},
+                        {"step_no": "5", "statement": "Drum level reduces to LSLL"},
                         {"step_no": "6", "statement": "SCR Firing angle 0"},
                         {"step_no": "7", "statement": "FCV closed"},
                         {"step_no": "8", "statement": "Recirculating pump (P2) Stopped"},
