@@ -1,7 +1,7 @@
 var startCount=0;
 var dataJson={};
 
-var selectedValue = 1000;
+var selectedValue = 500;
 var timerMasterJson={};
  var resultJson={};
 function BoilerHeatExchangerMimic(){
@@ -52,27 +52,27 @@ function BoilerHeatExchangerMimic(){
 		+'<tbody>'
 		+' <tr>'
 		+'   <td><label><b>TT1</b></label></td>'
-		+'   <td><label class="PMCValue" id="tt1">0</label>°C</td>'
+		+'   <td><label class="PMCValue" id="tt1">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b>TT2 </b></label></td>'
-		+' <td><label class="PMCValue" id="tt2">0</label>°C</td>'
+		+' <td><label class="PMCValue" id="tt2">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b>TT3 </b></label></td>'
-		+' <td><label class="PMCValue" id="tt3">0</label>°C</td>'
+		+' <td><label class="PMCValue" id="tt3">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b>TT4 </b></label></td>'
-		+' <td><label class="PMCValue" id="tt4">0</label>°C</td>'
+		+' <td><label class="PMCValue" id="tt4">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b>TT5 </b></label></td>'
-		+' <td><label class="PMCValue" id="tt5">0</label>°C</td>'
+		+' <td><label class="PMCValue" id="tt5">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b> TT6</b></label></td>'
-		+' <td><label class="PMCValue" id="tt6">0</label>°C</td>'
+		+' <td><label class="PMCValue" id="tt6">0</label><sup>o</sup>C</td>'
 		+'  </tr>'
 		+'  <tr>'
 		+' <td><label><b>FT1</b></label></td>'
@@ -1079,6 +1079,7 @@ water.animate(
 		
 		 startCount++;
 //		 $("#startBtn").prop('disabled',true);
+	
 		  $("#modelDialog1").addClass("modal-lg");
 		  $("#modelTitle1").html("Check the Components");
 		  var modelBody1=''
@@ -1090,6 +1091,7 @@ water.animate(
 
 
 });
+
 
  function blink() {
         motor1.animate({ opacity: 0.2 }, 500, function () {
@@ -1125,6 +1127,9 @@ $("#myModal1").on("hidden.bs.modal", function () {
 		startP1.toBack();
 		startP2.toFront();
 		
+		 $("#startBtn").prop("disabled",true);
+		 $("#reset").prop("disabled",true);
+		 $("#nextLevelFault").prop("disabled",true);
 		
 		  ht1 = 50;
 		  delay = 150; 
@@ -1372,11 +1377,11 @@ $("#myModal1").on("hidden.bs.modal", function () {
 	
 	if(arrayJson.MSV2[i] >= 10){
 		hot(x,y);
-		valve2.remove();
+//		valve2.remove();
 		valve2 = paper.image("images/svValveH2G.png", x+305, y+650, 50, 50).attr({ 'transform': 'r' + 270 });
 //		valve2.toBack();
 	}else{
-		valve2.remove();
+//		valve2.remove();
 		valve2 = paper.image("images/redValve.png", x+305, y+650, 50, 50).attr({ 'transform': 'r' + 270 });
 		
 		  
@@ -1385,12 +1390,12 @@ $("#myModal1").on("hidden.bs.modal", function () {
 	
 	
 	if(arrayJson.MSV1[i] > 0){
-		valve1.remove();
+//		valve1.remove();
 		 valve1 = paper.image("images/svValveH2G.png", x+270, y+595, 50, 50).toFront();
 //		 valve1.toBack();
 		
 	}else{
-		valve1.remove();
+//		valve1.remove();
 		
 		valve1 = paper.image("images/redValve.png", x+270, y+595, 50, 50);
 		

@@ -113,40 +113,40 @@ function faultActivity()
 </video></center>
 		`;
 		$("#refMimicBody").html(htm);
-		var video = document.getElementById("simVideo");
-
-	// Define the start and end skip times (in seconds)
-	var skipStart = 5;  // Skip the first 5 seconds
-	var skipEnd = 8;    // Skip the last 5 seconds
-
-// 	video.onloadedmetadata = function() { 
-	    // Get the duration of the video
-	    var videoDuration = video.duration;
-
-	    // Ensure the video plays between skipStart and (duration - skipEnd)
-	    video.currentTime = skipStart;
-
-	    // Event listener to pause the video when it reaches the end limit (video duration - skipEnd)
-	    video.ontimeupdate = function() {
-	        if (video.currentTime >= videoDuration - skipEnd) {
-	            video.pause();
-				video.currentTime = skipStart;
-	        }
-	    };
-
-	    // Prevent seeking outside the allowed time range
-	    video.addEventListener('seeking', function(event) {
-	        // If seeking before the start time or after the allowed end time, reset the current time
-	        if (video.currentTime < skipStart) {
-	            video.currentTime = skipStart;
-	        } else if (video.currentTime > videoDuration - skipEnd) {
-	            //video.currentTime = videoDuration - skipEnd;
-				video.currentTime = skipStart;
-	        }
-	    });
-// 	};
-	
-	video.play();
+//		var video = document.getElementById("simVideo");
+//
+//	// Define the start and end skip times (in seconds)
+//	var skipStart = 5;  // Skip the first 5 seconds
+//	var skipEnd = 8;    // Skip the last 5 seconds
+//
+//// 	video.onloadedmetadata = function() { 
+//	    // Get the duration of the video
+//	    var videoDuration = video.duration;
+//
+//	    // Ensure the video plays between skipStart and (duration - skipEnd)
+//	    video.currentTime = skipStart;
+//
+//	    // Event listener to pause the video when it reaches the end limit (video duration - skipEnd)
+//	    video.ontimeupdate = function() {
+//	        if (video.currentTime >= videoDuration - skipEnd) {
+//	            video.pause();
+//				video.currentTime = skipStart;
+//	        }
+//	    };
+//
+//	    // Prevent seeking outside the allowed time range
+//	    video.addEventListener('seeking', function(event) {
+//	        // If seeking before the start time or after the allowed end time, reset the current time
+//	        if (video.currentTime < skipStart) {
+//	            video.currentTime = skipStart;
+//	        } else if (video.currentTime > videoDuration - skipEnd) {
+//	            //video.currentTime = videoDuration - skipEnd;
+//				video.currentTime = skipStart;
+//	        }
+//	    });
+//// 	};
+//	
+//	video.play();
 		
 	});
 	$("#nextAlam").click(function(){
