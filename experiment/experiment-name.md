@@ -1,1 +1,1 @@
-## Interpret the event and alarm diagram for the smooth running of a plant
+## Interpret the event and alarm diagram for smooth running of a plant
