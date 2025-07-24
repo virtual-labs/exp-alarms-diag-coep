@@ -76,18 +76,6 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the purpose of an event sequence diagram in a process plant?",
-      "answers": {
-        "a": "To illustrate the relationships between alarms and events",
-        "b": "To show the sequence of events leading to a shutdown",
-        "c": "To identify the root cause of an event",
-        "d": "To optimize process operating conditions"
-      },
-     
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
       "question": "Which of the following is a best practice for alarm design in a process plant?",
       "answers": {
         "a": "Use of vague alarm descriptions",
