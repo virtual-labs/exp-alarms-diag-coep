@@ -1,0 +1,118 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the primary goal of alarm prioritization in a process plant?",
+      "answers": {
+        "a": "To reduce the number of alarms",
+        "b": "To improve operator response times",
+        "c": "To ensure that critical alarms receive immediate attention",
+        "d": "To optimize process operating conditions"
+		
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a characteristic of a well-designed alarm system in a process plant?",
+      "answers": {
+        "a": "High alarm frequency to ensure operator vigilance",
+        "b": "Low alarm priority to reduce operator workload",
+        "c": "Clear and concise alarm messages to facilitate quick response",
+        "d": "Complex alarm logic to detect rare events"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3 What is the term for the process of analyzing and documenting the root cause of an alarm or event in a process plant?",
+      "answers": {
+        "a": "Alarm investigation",
+        "b": "Event analysis",
+        "c": "Root cause analysis (RCA)",
+        "d": "Failure mode and effects analysis (FMEA)"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	{
+      "question": "Which of the following is a benefit of implementing an alarm suppression system in a process plant?",
+      "answers": {
+        "a": "Reduced operator workload",
+        "b": "Improved alarm response times",
+        "c": "Reduced nuisance alarms during startup and shutdown",
+        "d": "Enhanced process safety and reliability"
+      },
+     
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "What is the purpose of an alarm shelving system in a process plant?",
+      "answers": {
+        "a": "To temporarily suppress alarms during maintenance",
+        "b": "To permanently disable alarms for non-critical processes",
+        "c": "To prioritize alarms based on their severity",
+        "d": "To automate alarm response procedures"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+  
+  {
+      "question": "Which of the following is a key performance indicator (KPI) for alarm system performance in a process plant?",
+      "answers": {
+        "a": "Alarm frequency",
+        "b": "Alarm response time",
+        "c": "Alarm accuracy",
+        "d": "Mean time between alarms (MTBA)"
+      },
+     
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+	
+	{
+      "question": "What is the term for the process of reviewing and updating alarm settings and priorities based on operating experience and feedback?",
+      "answers": {
+        "a": "Alarm optimization",
+        "b": "Alarm rationalization",
+        "c": "Alarm maintenance",
+        "d": "Alarm refinement"
+		
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a best practice for alarm presentation in a process plant?",
+      "answers": {
+        "a": "Use of color-coded alarms to indicate severity",
+        "b": "Use of audible alarms only for critical events",
+        "c": "Use of alarm banners to display multiple alarms",
+        "d": "Use of alarm lists to display all active alarms"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the purpose of an event sequence diagram in a process plant?",
+      "answers": {
+        "a": "To illustrate the relationships between alarms and events",
+        "b": "To show the sequence of events leading to a shutdown",
+        "c": "To identify the root cause of an event",
+        "d": "To optimize process operating conditions"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
