@@ -113,22 +113,6 @@
      
       "correctAnswer": "a",
       "difficulty": "beginner"
-    },
-	{
-      "question": "Which of the following is a benefit of implementing an alarm management system in a process plant?",
-      "answers": {
-        "a": "Reduced operator workload",
-        "b": "Improved process efficiency",
-        "c": "Enhanced safety and reliability",
-        "d": "All mentioned"
-      },
-     
-      "correctAnswer": "d",
-      "difficulty": "beginner"
     }
-  
-  
-  
-  
   ]
 }
